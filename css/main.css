@@ -14,12 +14,12 @@
 
 @font-face {
     font-family: Metropolis-medium;
-    src: url("/Metropolis-Medium.otf") format("opentype");
+    src: url("/fonts/Metropolis-Medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: Metropolis-bold;
-  src: url("/Metropolis-Bold.otf") format("opentype");
+  src: url("/fonts/Metropolis-Bold.otf") format("opentype");
 }
 
 html {
@@ -429,7 +429,7 @@ textarea {
   .hero-svg {
     height: initial;
     align-self: flex-end;
-    max-width: 93%;
+    max-width: 100%;
     left: 20px;
     position: relative;
   }
