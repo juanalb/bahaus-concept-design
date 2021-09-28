@@ -22,10 +22,50 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+</style>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+<body>
+  <header>
+    <a href="" class="navbar-brand">
+      <img src="logo.svg" alt="Brand logo Bahaus" />
+    </a>
+
+    <div class="navbar-menu-sm">
+      <img id="menu-open" src="menu.svg" alt="Open the menu" />
+      <img id="menu-close" src="close.svg" alt="Close the menu" />
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#this">Home</a></li>
+        <li><a href="#website">Artists</a></li>
+        <li><a href="#isn't">Exhibitions</a></li>
+        <li><a href="#functional">Shop</a></li>
+        <li class="underline"><a href="#issa_concept" class="underline">Log in</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero-wrapper">
+      <img src="bubble.svg" class="hero-bubble fade-in-fwd" alt="Decoration based on the abstract art of Bauhaus" />
+
+      <div class="title-wrapper">
+        <img src="quote.svg" class="fade-in-fwd" alt="The title is quoted by this image" />
+        <h1 class="fade-in-fwd">The mind is like an umbrella - it functions best when open.</h1>
+      </div>
+      <p class="fade-in-fwd">Explore our selection of Bauhaus abstract works, learn more about the artists and start
+        building your own
+        gallery.</p>
+      <button class="fade-in-fwd">EXPLORE GALLERY</button>
+    </div>
+
+    <img class="hero-svg fade-in-fwd" src="graphic.svg"
+      alt="Animated decoration based on the abstract art of Bauhaus" />
+  </main>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
